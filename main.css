@@ -1,0 +1,43 @@
+.container {
+  /*
+    If you have a block-level element of a certain width, margin: 0 auto;
+    will how you center it inside its parent container.
+
+    See: http://bluerobot.com/web/css/center1.html
+    
+    Don't change the container width.
+  */
+  margin: 0 auto;  
+  width: 720px;
+}
+
+#tour {
+  width: 100%;
+  float: left;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+.feature {
+  overflow: auto;
+  padding-bottom: 20px;
+}
+
+#tour .left {
+  float: left;
+}
+
+#tour .right {
+  float: right;
+}
+
+.feature .feature_text {
+  width: 48.5%;
+}
+
+img {
+  width: 48.5%;
+}
+
